@@ -1,0 +1,12 @@
+{
+  "key.category.cubewaypoints.cw_mappings": "Cube Waypoints",
+  "key.cubewaypoints.clear_waypoints": "Clear Waypoints",
+  "key.cubewaypoints.primary_waypoint": "Add Primary Waypoint",
+  "key.cubewaypoints.remove_waypoint": "Remove Waypoint",
+  "key.cubewaypoints.secondary_waypoint": "Add Secondary Waypoint",
+  "text.autoconfig.cubewaypoints.option.outlineAlpha": "Outline Alpha",
+  "text.autoconfig.cubewaypoints.option.outlineWidth": "Outline Width",
+  "text.autoconfig.cubewaypoints.option.primaryColour": "Primary Waypoint Colour",
+  "text.autoconfig.cubewaypoints.option.secondaryColour": "Secondary Waypoint Colour",
+  "text.autoconfig.cubewaypoints.title": "Cube Waypoints"
+}

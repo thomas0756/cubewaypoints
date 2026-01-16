@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "cubewaypoints",
+  "version": "${version}",
+  "name": "Cube Waypoints",
+  "description": "Waypoint mod that highlights blocks",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/cubewaypoints/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.amplicube.cubewaypoints.client.datagen.CubewaypointsDataGenerator"
+    ],
+    "client": [
+      "com.amplicube.cubewaypoints.client.CubewaypointsClient",
+      "com.amplicube.cubewaypoints.client.render.BoxRenderer"
+    ],
+    "main": [
+      "com.amplicube.cubewaypoints.Cubewaypoints"
+    ],
+    "modmenu": [
+      "com.amplicube.cubewaypoints.client.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "cubewaypoints.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "cloth-config": ">=21.0.0"
+  }
+}
