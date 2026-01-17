@@ -4,8 +4,15 @@
   "version": "${version}",
   "name": "Cube Waypoints",
   "description": "Waypoint mod that highlights blocks",
-  "authors": [],
-  "contact": {},
+  "authors": [
+    "AmpliCube"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/cubewaypoints",
+    "sources": "https://github.com/thomas0756/cubewaypoints",
+    "issues": "https://github.com/thomas0756/cubewaypoints/issues"
+  },
+
   "license": "MIT",
   "icon": "assets/cubewaypoints/icon.png",
   "environment": "*",
