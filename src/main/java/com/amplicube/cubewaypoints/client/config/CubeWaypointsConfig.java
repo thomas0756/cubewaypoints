@@ -13,6 +13,14 @@ import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 @Config(name = Cubewaypoints.MOD_ID)
 public class CubeWaypointsConfig implements ConfigData {
 
+    public boolean showWaypoints = true;
+
+    @ConfigEntry.BoundedDiscrete(min = 0, max = 1024)
+    public int maxRenderDistance = 256;
+
+    @ConfigEntry.Gui.Tooltip
+    public boolean depthTest = false;
+
     @ConfigEntry.ColorPicker(allowAlpha = true)
     public int primaryColour = 0x4DFF0000;
 

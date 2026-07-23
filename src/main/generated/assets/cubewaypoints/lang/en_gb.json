@@ -4,9 +4,14 @@
   "key.cubewaypoints.primary_waypoint": "Add Primary Waypoint",
   "key.cubewaypoints.remove_waypoint": "Remove Waypoint",
   "key.cubewaypoints.secondary_waypoint": "Add Secondary Waypoint",
+  "key.cubewaypoints.toggle_visibility": "Toggle Waypoint Visibility",
+  "text.autoconfig.cubewaypoints.option.depthTest": "Occlude Behind Blocks",
+  "text.autoconfig.cubewaypoints.option.depthTest.@Tooltip": "Hides waypoint parts that are behind blocks instead of showing them through walls. Improves performance.",
+  "text.autoconfig.cubewaypoints.option.maxRenderDistance": "Max Render Distance (0 = unlimited)",
   "text.autoconfig.cubewaypoints.option.outlineAlpha": "Outline Alpha",
   "text.autoconfig.cubewaypoints.option.outlineWidth": "Outline Width",
   "text.autoconfig.cubewaypoints.option.primaryColour": "Primary Waypoint Colour",
   "text.autoconfig.cubewaypoints.option.secondaryColour": "Secondary Waypoint Colour",
+  "text.autoconfig.cubewaypoints.option.showWaypoints": "Show Waypoints",
   "text.autoconfig.cubewaypoints.title": "Cube Waypoints"
 }

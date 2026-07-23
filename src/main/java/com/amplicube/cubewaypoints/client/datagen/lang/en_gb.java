@@ -18,8 +18,13 @@ public class en_gb extends FabricLanguageProvider {
         translationBuilder.add("key.cubewaypoints.secondary_waypoint", "Add Secondary Waypoint");
         translationBuilder.add("key.cubewaypoints.remove_waypoint", "Remove Waypoint");
         translationBuilder.add("key.cubewaypoints.clear_waypoints", "Clear Waypoints");
+        translationBuilder.add("key.cubewaypoints.toggle_visibility", "Toggle Waypoint Visibility");
 
         translationBuilder.add("text.autoconfig.cubewaypoints.title", "Cube Waypoints");
+        translationBuilder.add("text.autoconfig.cubewaypoints.option.showWaypoints", "Show Waypoints");
+        translationBuilder.add("text.autoconfig.cubewaypoints.option.maxRenderDistance", "Max Render Distance (0 = unlimited)");
+        translationBuilder.add("text.autoconfig.cubewaypoints.option.depthTest", "Occlude Behind Blocks");
+        translationBuilder.add("text.autoconfig.cubewaypoints.option.depthTest.@Tooltip", "Hides waypoint parts that are behind blocks instead of showing them through walls. Improves performance.");
         translationBuilder.add("text.autoconfig.cubewaypoints.option.primaryColour", "Primary Waypoint Colour");
         translationBuilder.add("text.autoconfig.cubewaypoints.option.secondaryColour", "Secondary Waypoint Colour");
         translationBuilder.add("text.autoconfig.cubewaypoints.option.outlineWidth", "Outline Width");

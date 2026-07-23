@@ -61,6 +61,13 @@ public class CubewaypointsClient implements ClientModInitializer {
                         GLFW.GLFW_KEY_COMMA,
                         CATEGORY
                 ));
+        KeyMapping toggleVisibilityKey = KeyBindingHelper.registerKeyBinding(
+                new KeyMapping(
+                        "key.cubewaypoints.toggle_visibility",
+                        InputConstants.Type.KEYSYM,
+                        GLFW.GLFW_KEY_UNKNOWN,
+                        CATEGORY
+                ));
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
 
@@ -84,6 +91,10 @@ public class CubewaypointsClient implements ClientModInitializer {
             }
             while (clearWaypointsKey.consumeClick()) {
                 WaypointManager.clearWaypoints();
+            }
+            while (toggleVisibilityKey.consumeClick()) {
+                config.showWaypoints = !config.showWaypoints;
+                AutoConfig.getConfigHolder(CubeWaypointsConfig.class).save();
             }
         });
     }
